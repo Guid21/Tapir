@@ -442,6 +442,7 @@ h3 {
 
   .navbar__menu.active {
     left: 0;
+    top: 50px;
     padding: 20px 0;
   }
 

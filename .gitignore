@@ -1,3 +1,6 @@
+# development
+/src
+
 # production
 /dist
 
@@ -6,3 +9,4 @@
 
 yarn.lock
 package-lock.json
+.babelrc
