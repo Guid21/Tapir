@@ -1,0 +1,22 @@
+@import './button.scss';
+
+.agreement {
+  flex-direction: column;
+  display: none;
+
+  &__content {
+    overflow: auto;
+
+    @media (max-width: 767px) {
+      overflow: auto;
+    }
+  }
+
+  &__btn {
+    margin-top: 17px;
+  }
+}
+
+.agreement.active {
+  display: flex;
+}
